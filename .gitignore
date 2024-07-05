@@ -1,0 +1,177 @@
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ignore virtual environment files
+Pipfile.lock
+Pipfile
+
+# Ignore log files
+*.log
+
+# Ignore Streamlit files
+.streamlit/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore specific editor temp files
+*~
+*.swp
+*.swo
+.*.s[a-w][a-z]
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignore coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore Pyre type checker
+.pyre/
+
+# Ignore Pytest
+.pytest_cache/
+
+# Ignore IntelliJ project files
+*.iml
+.idea/
+
+# Ignore VSCode project files
+.vscode/
+
+# Ignore JetBrains specific directories
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Ignore other temporary files
+*.orig
+*.rej
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore CSV and TSV files
+*.csv
+*.tsv
+
+# Ignore HDF5 files
+*.h5
+*.hdf5
+
+# Ignore Parquet files
+*.parquet
+
+# Ignore other data files
+*.dat
+*.data
+
+# Ignore backups
+*.bak
+
+# Ignore compressed files
+*.gz
+*.zip
+*.tar
+*.tgz
+*.bz2
+*.xz
+
+# Ignore package files
+*.deb
+*.rpm
+
+# Ignore wheel files
+*.whl
+
+# Ignore Windows executables
+*.exe
+*.dll
+*.com
+*.bat
+*.msi
+
+# Ignore macOS applications
+*.app
+*.dmg
+*.pkg
+*.mpkg
+
+# Ignore Linux shared libraries
+*.so
+
+# Ignore DLL files
+*.dll
